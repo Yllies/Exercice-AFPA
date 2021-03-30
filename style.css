@@ -2,38 +2,28 @@ html,body{
 
     margin: 0;
     padding: 0;
-    margin-top: 5%;
     margin: auto;
     margin-left: 0;
     margin-right: 0;
 }
-
-header{
-
-    text-align: center;
-}
-
-
-header .canyon{
-    z-index: 1;
-    height: 500px;
-    margin-top: -5%;
+.canyon{
     width: 100%;
     margin-top: -5%;
+    height: 600px;
 }
 
-header h1{
-
-    z-index: 2;
-    margin-top: -22%;
-    font-family: serif;
-    color: gray;
+.titre p{ 
+    
+    width: 20%;
+    font-size: 20px;
 }
 
-header p{
-
-    z-index: 2;
-    margin-top: 2%;
-    font-family: serif;
+.titre{
     color: gray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: -32%;
+    align-items: center;
 }
